@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.myCard {
+  width: 30%;
+  transition: all 1.5s, transform .5s;
+}
+
+.myCard:hover {
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 900px) {
+  .myCard {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .myCard {
+    width: 75%;
+  }
+}
