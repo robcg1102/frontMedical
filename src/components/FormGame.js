@@ -44,7 +44,7 @@ export default function FormGame(props) {
     e.preventDefault();
 
     if (description.length > 300) {
-      swal(
+      return swal(
         "Alerta!",
         "La descripción no puede ser mayor a 300 caracteres",
         "warning"
